@@ -18,7 +18,7 @@ public class Hooks {
 	
 	public static final String USERNAME = System.getenv("SAUCE_USERNAME");
     public static final String ACCESS_KEY = System.getenv("SAUCE_ACCESS_KEY");
-    public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
+    public static final String URL = "https://mailmanindmmudiam:a8cea77a-048e-4a18-981d-8557608fadc7@ondemand.saucelabs.com:443/wd/hub";
     public static final String browser = System.getProperty("browser");
     public static WebDriver driver;
     public String commentInputText;
